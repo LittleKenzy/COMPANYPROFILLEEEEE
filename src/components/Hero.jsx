@@ -10,8 +10,7 @@ const Hero = () => {
           Wise <span className={styles.highlight}>Verda</span> Company
         </h1>
         <p className={styles.description}>
-          Masa depan hijau dimulai dari sini. Kami menghadirkan inovasi yang
-          ramah lingkungan untuk menciptakan dampak positif bagi bumi.
+          Wise Verda menghadirkan Foldex — papan dada multifungsi yang minimalis dan modern, terbuat dari limbah kayu, kulit, dan kain perca. Inovasi ramah lingkungan untuk produktivitas generasi muda.
         </p>
         <div className={styles.btnGroup}>
           <a href="#about" className={styles.primaryBtn}>
