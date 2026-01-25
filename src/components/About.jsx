@@ -8,7 +8,8 @@ const About = () => {
           <h2 className={styles.title}>Tentang Kami</h2>
           <div className={styles.divider}></div>
           <p className={styles.text}>
-           Kami adalah perusahaan siswa yang bergerak di bidang produk ramah lingkungan dengan inovasi unggulan "Foldex", papan dada multifungsi yang praktis, minimalis, dan kekinian. Foldex dilengkapi kantong untuk dokumen, uang, dan alat tulis, serta dibuat dari papan dada bekas dan kulit daur ulang. Wise Verda hadir sebagai wadah bagi siswa untuk belajar dunia kerja nyata sekaligus menghadirkan produk fungsional untuk generasi muda. 🌱✨
+            Wise Verda adalah Perusahaan yang lahir dari semangat generasi muda untuk menghadirkan solusi kreatif dan inovatif bagi tantangan masa depan.
+            Kami bukan hanya wadah belajar bisnis, tetapi juga ruang untuk mengasah kepemimpinan, kreativitas, dan kepedulian sosial serta lingkungan.
           </p>
         </div>
       </div>
