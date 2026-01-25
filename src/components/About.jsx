@@ -1,4 +1,4 @@
-import styles from './About.module.css';
+import styles from "./About.module.css";
 
 const About = () => {
   return (
@@ -6,14 +6,13 @@ const About = () => {
       <div className="container">
         <div className={styles.content}>
           <h2 className={styles.title}>Tentang Kami</h2>
+          <div className={styles.divider}></div>
           <p className={styles.text}>
-            Selamat datang di COMPANY NAME, mitra terpercaya Anda dalam solusi teknologi. 
-            Didirikan pada tahun 2023, kami berdedikasi untuk memberikan layanan terbaik 
-            yang membantu bisnis tumbuh di era digital.
-          </p>
-          <p className={styles.text}>
-            Tim kami terdiri dari profesional berpengalaman yang penuh semangat dalam 
-            menciptakan inovasi yang berdampak positif bagi klien kami.
+            Wise Verda merupakan suatu perusahaan siswa yang berfokus pada
+            pengembangan kesadaran lingkungan, inovasi hijau, dan kepemimpinan
+            pemuda. Perusahaan ini dibentuk sebagai forum untuk belajar,
+            berkolaborasi, dan menciptakan solusi kreatif untuk isu-isu
+            keberlanjutan.
           </p>
         </div>
       </div>

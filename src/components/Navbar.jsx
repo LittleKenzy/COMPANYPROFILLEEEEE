@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import styles from "./Navbar.module.css";
-import logo from "../assets/logo-perusahaan.png";
+import logo from "../assets/logo-transparent.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.navContainer}>
         <a href="#hero" className={styles.logo} onClick={closeMenu}>
-          <img src={logo} alt="Wise Verda Logo" />
+          <img src={logo} alt="Wise Verda Logo" style={{ width: "100px", height: "100px" }} />
         </a>
 
         {/* Hamburger Menu for Mobile */}
@@ -69,11 +69,6 @@ const Navbar = () => {
           <li>
             <a href="#products" className={styles.navLink} onClick={closeMenu}>
               Produk
-            </a>
-          </li>
-          <li>
-            <a href="#contact" className={styles.navLink} onClick={closeMenu}>
-              Kontak
             </a>
           </li>
         </ul>

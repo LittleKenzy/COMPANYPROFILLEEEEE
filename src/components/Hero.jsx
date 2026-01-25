@@ -1,16 +1,32 @@
-import styles from './Hero.module.css';
+import styles from "./Hero.module.css";
 
 const Hero = () => {
   return (
     <section id="hero" className={styles.hero}>
+      <div className={styles.mesh}></div>
       <div className={styles.content}>
-        <h1 className={styles.title}>Masa Depan Teknologi Digital Ada Di Sini</h1>
+        <div className={styles.badge}>Innovative Sustainable Solutions</div>
+        <h1 className={styles.title}>
+          Wise <span className={styles.highlight}>Verda</span> Company
+        </h1>
         <p className={styles.description}>
-          Kami membantu bisnis Anda bertransformasi dan berkembang dengan solusi teknologi inovatif dan terpercaya.
+          Masa depan hijau dimulai dari sini. Kami menghadirkan inovasi yang
+          ramah lingkungan untuk menciptakan dampak positif bagi bumi.
         </p>
-        <a href="#about" className={styles.ctaButton}>
-          Pelajari Lebih Lanjut
-        </a>
+        <div className={styles.btnGroup}>
+          <a href="#about" className={styles.primaryBtn}>
+            Pelajari Lebih Lanjut
+          </a>
+          <a href="#products" className={styles.secondaryBtn}>
+            Lihat Produk
+          </a>
+        </div>
+      </div>
+
+      <div className={styles.scrollIndicator}>
+        <div className={styles.mouse}>
+          <div className={styles.wheel}></div>
+        </div>
       </div>
     </section>
   );
