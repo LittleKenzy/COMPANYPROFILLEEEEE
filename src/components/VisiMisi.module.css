@@ -1,0 +1,73 @@
+.visimisi {
+  background-color: var(--light-bg);
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  margin-bottom: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cardTitle {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.cardTitle::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 50px;
+  height: 3px;
+  background-color: var(--secondary-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list li {
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.list li::before {
+  content: '•';
+  color: var(--primary-color);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

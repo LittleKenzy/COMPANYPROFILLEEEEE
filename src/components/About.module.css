@@ -1,0 +1,22 @@
+.about {
+  background-color: white;
+}
+
+.content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
