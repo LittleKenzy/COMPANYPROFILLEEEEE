@@ -70,12 +70,12 @@ const Footer = () => {
           </div>
 
           <div className={styles.contactSection}>
-            <h4 className={styles.sectionTitle}>Hubungi Kami</h4>
+            <h4 className={styles.sectionTitle}>Contact Us</h4>
             <div className={styles.contactItem}>
               <MapPin size={18} className={styles.icon} />
               <p>
-                Jl. Jenggolo 2 A, Desa Siwalan Panji, Kecamatan Buduran,
-                Kabupaten Sidoarjo, Jawa Timur.
+                Jenggolo St. 2 A, Siwalan Panji Village, Buduran District,
+                Sidoarjo Regency, East Java.
               </p>
             </div>
             <div className={styles.contactItem}>

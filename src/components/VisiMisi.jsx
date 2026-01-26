@@ -4,16 +4,16 @@ const VisiMisi = () => {
   return (
     <section id="visimisi" className={styles.visimisi}>
       <div className="container">
-        <h2 className={styles.title}>Visi & Misi</h2>
+        <h2 className={styles.title}>Vision & Mission</h2>
         <div className={styles.grid}>
           <div className={styles.card}>
-            <h3 className={styles.cardTitle}>Visi</h3>
+            <h3 className={styles.cardTitle}>Vision</h3>
             <p>
               "To become an innovative company that integrates productivity, smart education, and green sustainability, while ramaining competitive in the global market. "
             </p>
           </div>
           <div className={styles.card}>
-            <h3 className={styles.cardTitle}>Misi</h3>
+            <h3 className={styles.cardTitle}>Mission</h3>
             <ul className={styles.list}>
               <li>To cultivate creativity, productivity, and leadership among young people through environmentally conscious innovation.</li>
               <li>To instill social and ecological responsibility in students.</li>

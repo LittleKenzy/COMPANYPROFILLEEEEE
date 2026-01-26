@@ -10,14 +10,14 @@ const Hero = () => {
           Wise <span className={styles.highlight}>Verda</span> Company
         </h1>
         <p className={styles.description}>
-          Wise Verda menghadirkan Foldex — papan dada multifungsi yang minimalis dan modern, terbuat dari limbah kayu, kulit, dan kain perca. Inovasi ramah lingkungan untuk produktivitas generasi muda.
+          Wise Verda presents Foldex — a minimalist and modern multifunctional clipboard made from wood waste, leather, and scraps. An eco-friendly innovation for the productivity of the younger generation.
         </p>
         <div className={styles.btnGroup}>
           <a href="#about" className={styles.primaryBtn}>
-            Pelajari Lebih Lanjut
+            Learn More
           </a>
           <a href="#products" className={styles.secondaryBtn}>
-            Lihat Produk
+            See Products
           </a>
         </div>
       </div>

@@ -45,7 +45,7 @@ const teamMembers = [
   {
     id: 2,
     name: "Ailsa Zakiyah Adhinda A.",
-    role: "SECERTARY",
+    role: "SECRETARY",
     photoUrl: Sekertaris,
   },
   {
@@ -248,7 +248,7 @@ const Team = () => {
         <div className={styles.searchContainer}>
           <input
             type="text"
-            placeholder="Cari nama atau jabatan..."
+            placeholder="Search name or position..."
             className={styles.searchInput}
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
@@ -294,7 +294,7 @@ const Team = () => {
             ))
           ) : (
             <p className={styles.noResults}>
-              Tidak ada anggota tim yang ditemukan.
+              No team members found.
             </p>
           )}
         </div>
