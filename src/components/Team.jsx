@@ -86,8 +86,8 @@ const teamMembers = [
   },
   {
     id: 9,
-    name: "Erlinda Safa H.",
-    role: "ATTENDANCE & PAYROLL SPECIALIST",
+    name: "Ratih Ervi M.",
+    role: "SALES & INVENTORY MANAGER 1",
     photoUrl: erlinda,
   },
   {
@@ -134,8 +134,8 @@ const teamMembers = [
   },
   {
     id: 17,
-    name: "Ratih Ervi M.",
-    role: "SALES & INVENTORY MANAGER 1",
+    name: "Erlinda Safa H.",
+    role: "ATTENDANCE & PAYROLL SPECIALIST",
     photoUrl: ratih,
   },
   {
