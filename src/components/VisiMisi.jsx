@@ -4,21 +4,21 @@ const VisiMisi = () => {
   return (
     <section id="visimisi" className={styles.visimisi}>
       <div className="container">
-        <h2 className={styles.title}>Vision & Mission</h2>
+        <h2 className={styles.title}>Visi & Misi</h2>
         <div className={styles.grid}>
           <div className={styles.card}>
-            <h3 className={styles.cardTitle}>Vision</h3>
+            <h3 className={styles.cardTitle}>Visi</h3>
             <p>
-              "To become an innovative company that integrates productivity, smart education, and green sustainability, while ramaining competitive in the global market. "
+              "Menjadi perusahaan inovatif yang mengintegrasikan produktivitas, pendidikan pintar, dan keberlanjutan hijau, sambil tetap kompetitif di pasar global."
             </p>
           </div>
           <div className={styles.card}>
-            <h3 className={styles.cardTitle}>Mission</h3>
+            <h3 className={styles.cardTitle}>Misi</h3>
             <ul className={styles.list}>
-              <li>To cultivate creativity, productivity, and leadership among young people through environmentally conscious innovation.</li>
-              <li>To instill social and ecological responsibility in students.</li>
-              <li>To foster a healthy, inclusive, and solution-oriented culture of collaboration.</li>
-              <li>To serve as a learning platform for value-based and integrity-driven entrepreneurship.</li>
+              <li>Meningkatkan kreativitas, produktivitas, dan kepemimpinan di kalangan generasi muda melalui inovasi yang sadar lingkungan.</li>
+              <li>Menanamkan tanggung jawab sosial dan ekologis pada siswa.</li>
+              <li>Membangun budaya kolaborasi yang sehat, inklusif, dan berorientasi pada solusi.</li>
+              <li>Menjadi platform pembelajaran untuk kewirausahaan berbasis nilai dan berintegritas.</li>
             </ul>
           </div>
         </div>

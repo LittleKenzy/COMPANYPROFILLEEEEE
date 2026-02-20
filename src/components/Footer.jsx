@@ -9,7 +9,7 @@ const Footer = () => {
           <div className={styles.brandSection}>
             <h3 className={styles.brand}>Wise Verda Company</h3>
             <p className={styles.tagline}>
-              Innovative Sustainable Solutions for a Greener Future
+              Solusi Berkelanjutan yang Inovatif untuk Masa Depan yang Lebih Hijau
             </p>
             <div className={styles.socialSection}>
               <a
@@ -70,12 +70,12 @@ const Footer = () => {
           </div>
 
           <div className={styles.contactSection}>
-            <h4 className={styles.sectionTitle}>Contact Us</h4>
+            <h4 className={styles.sectionTitle}>Hubungi Kami</h4>
             <div className={styles.contactItem}>
               <MapPin size={18} className={styles.icon} />
               <p>
-                Jenggolo St. 2 A, Siwalan Panji Village, Buduran District,
-                Sidoarjo Regency, East Java.
+                Jl. Jenggolo 2 A, Desa Siwalan Panji, Kecamatan Buduran,
+                Kabupaten Sidoarjo, Jawa Timur.
               </p>
             </div>
             <div className={styles.contactItem}>
@@ -92,8 +92,8 @@ const Footer = () => {
         <div className={styles.divider}></div>
 
         <p className={styles.text}>
-          &copy; {new Date().getFullYear()} Profile Wise Verda. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} Profil Wise Verda. Semua hak
+          dilindungi.
         </p>
       </div>
     </footer>

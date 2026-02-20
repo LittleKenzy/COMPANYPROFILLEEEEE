@@ -48,27 +48,27 @@ const Navbar = () => {
 
           <li>
             <a href="#hero" className={styles.navLink} onClick={closeMenu}>
-              Home
+              Beranda
             </a>
           </li>
           <li>
             <a href="#about" className={styles.navLink} onClick={closeMenu}>
-              About
+              Tentang Kami
             </a>
           </li>
           <li>
             <a href="#visimisi" className={styles.navLink} onClick={closeMenu}>
-              Vision & Mission
+              Visi & Misi
             </a>
           </li>
           <li>
             <a href="#team" className={styles.navLink} onClick={closeMenu}>
-              Team
+              Tim
             </a>
           </li>
           <li>
             <a href="#products" className={styles.navLink} onClick={closeMenu}>
-              Products
+              Produk
             </a>
           </li>
         </ul>

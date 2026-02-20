@@ -241,14 +241,14 @@ const Team = () => {
     <section id="team" className={styles.teamSection}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <h2>Meet Our Team</h2>
-          <p>The innovation and passion behind our success</p>
+          <h2>Tim Kami</h2>
+          <p>inovasi dan semangat di balik kesuksesan kami</p>
         </div>
 
         <div className={styles.searchContainer}>
           <input
             type="text"
-            placeholder="Search name or position..."
+            placeholder="Cari nama atau posisi..."
             className={styles.searchInput}
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
@@ -294,7 +294,7 @@ const Team = () => {
             ))
           ) : (
             <p className={styles.noResults}>
-              No team members found.
+              Tidak ada anggota tim yang ditemukan.
             </p>
           )}
         </div>
@@ -305,7 +305,7 @@ const Team = () => {
               className={styles.seeMoreButton}
               onClick={() => setIsExpanded(!isExpanded)}
             >
-              {isExpanded ? "Show Less" : "See More Staff"}
+              {isExpanded ? "Tampilkan Lebih Sedikit" : "Lihat Lebih Banyak Staf"}
             </button>
           </div>
         )}
