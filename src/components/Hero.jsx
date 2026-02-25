@@ -5,19 +5,19 @@ const Hero = () => {
     <section id="hero" className={styles.hero}>
       <div className={styles.mesh}></div>
       <div className={styles.content}>
-        <div className={styles.badge}>Solusi Berkelanjutan yang Inovatif</div>
+        <div className={styles.badge}>Innovative Sustainable Solutions</div>
         <h1 className={styles.title}>
           Wise <span className={styles.highlight}>Verda</span> Company
         </h1>
         <p className={styles.description}>
-          Wise Verda mempersembahkan Foldex — clipboard multifungsi minimalis dan modern yang terbuat dari limbah kayu, kulit, dan sisa kain. Inovasi ramah lingkungan untuk produktivitas generasi muda.
+          Wise Verda presents Foldex — a minimalist and modern multifunctional clipboard made from wood waste, leather, and fabric scraps. Eco-friendly innovation for the productivity of the younger generation.
         </p>
         <div className={styles.btnGroup}>
           <a href="#about" className={styles.primaryBtn}>
-            Pelajari Lebih Lanjut
+            Learn More
           </a>
           <a href="#products" className={styles.secondaryBtn}>
-            Lihat Produk
+            View Products
           </a>
         </div>
       </div>

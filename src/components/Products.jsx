@@ -5,7 +5,7 @@ const productsData = [
   {
     id: 1,
     title: "Foldex",
-    desc: "Foldex adalah inovasi terbaru dari Wise Verda Company. Produk ini adalah solusi cerdas untuk kebutuhan penyimpanan dan organisasi Anda. Dengan desain yang elegan dan fungsional, Foldex hadir untuk memudahkan aktivitas harian Anda.",
+    desc: "Foldex is the latest innovation from Wise Verda Company. This product is a smart solution for your storage and organization needs. With elegant and functional design, Foldex is here to make your daily activities easier.",
     price: "Rp. 59.999",
   },
 ];
@@ -14,7 +14,7 @@ const Products = () => {
   return (
     <section id="products" className={styles.products}>
       <div className="container">
-        <h2 className={styles.title}>Produk Kami</h2>
+        <h2 className={styles.title}>Our Products</h2>
         <div className={styles.grid}>
           {productsData.map((product) => (
             <div key={product.id} className={styles.card}>
@@ -24,9 +24,9 @@ const Products = () => {
               <div className={styles.cardContent}>
                 <h3 className={styles.cardTitle}>{product.title}</h3>
                 <p className={styles.cardDesc}>{product.desc}</p>
-                <p className={styles.cardPrice}>Harga: {product.price}</p>
+                <p className={styles.cardPrice}>Price: {product.price}</p>
                 <a href="#contact" className={styles.cardButton}>
-                  Hubungi Kami
+                  Contact Us
                 </a>
               </div>
             </div>

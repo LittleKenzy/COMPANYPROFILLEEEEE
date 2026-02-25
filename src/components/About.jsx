@@ -5,11 +5,11 @@ const About = () => {
     <section id="about" className={styles.about}>
       <div className="container">
         <div className={styles.content}>
-          <h2 className={styles.title}>Tentang Kami</h2>
+          <h2 className={styles.title}>About Us</h2>
           <div className={styles.divider}></div>
           <p className={styles.text}>
-            Wise Verda adalah perusahaan yang lahir dari semangat generasi muda untuk memberikan solusi kreatif dan inovatif bagi tantangan di masa depan.
-            Kami bukan hanya platform pembelajaran bisnis, tetapi juga ruang untuk mengasah kepemimpinan, kreativitas, dan kesadaran sosial dan lingkungan.
+            Wise Verda is a company born from the passion of the younger generation to provide creative and innovative solutions for future challenges.
+            We are not just a business learning platform, but also a space to hone leadership, creativity, and social and environmental awareness.
           </p>
         </div>
       </div>
