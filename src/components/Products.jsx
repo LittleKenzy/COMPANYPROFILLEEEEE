@@ -6,7 +6,7 @@ const productsData = [
     id: 1,
     title: "Foldex",
     desc: "Foldex is the latest innovation from Wise Verda Company. This product is a smart solution for your storage and organization needs. With elegant and functional design, Foldex is here to make your daily activities easier.",
-    price: "Rp. 59.999",
+    price: "Rp. 67.500",
   },
 ];
 
