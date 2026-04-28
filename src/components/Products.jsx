@@ -7,21 +7,21 @@ const productsData = [
   {
     id: 1,
     title: "Foldex",
-    desc: "Foldex is the latest innovation from Wise Verda Company. This product is a smart solution for your storage and organization needs. With elegant and functional design, Foldex is here to make your daily activities easier.",
+    desc: "Foldex is the latest innovation from Wise Verda Company. Available in our signature Green edition, this variant brings a fresh and natural vibe to your workspace. A smart solution for storage and organization with an elegant, functional design that makes your daily activities easier.",
     price: "Rp. 67.500",
     image: foldex,
   },
   {
     id: 2,
     title: "Foldex",
-    desc: "Foldex is the latest innovation from Wise Verda Company. This product is a smart solution for your storage and organization needs. With elegant and functional design, Foldex is here to make your daily activities easier.",
+    desc: "Foldex is the latest innovation from Wise Verda Company. Now available in our bold Navy Blue edition, combining a cool and professional aesthetic with innovative color design. A smart solution for storage and organization with an elegant, functional design that makes your daily activities easier.",
     price: "Rp. 67.500",
     image: foldex2,
   },
   {
     id: 3,
     title: "Foldex",
-    desc: "Foldex is the latest innovation from Wise Verda Company. This product is a smart solution for your storage and organization needs. With elegant and functional design, Foldex is here to make your daily activities easier.",
+    desc: "Foldex is the latest innovation from Wise Verda Company. Introducing the stylish Pink edition, a fresh color innovation that adds a soft and cheerful touch to your everyday essentials. A smart solution for storage and organization with an elegant, functional design that makes your daily activities easier.",
     price: "Rp. 67.500",
     image: foldex3,
   }
