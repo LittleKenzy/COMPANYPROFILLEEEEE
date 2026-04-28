@@ -1,5 +1,7 @@
 import styles from "./Products.module.css";
 import foldex from "../assets/foldex_clean.png";
+import foldex2 from "../assets/foldex_2.jpg";
+import foldex3 from "../assets/foldex_3.jpg";
 
 const productsData = [
   {
@@ -7,7 +9,22 @@ const productsData = [
     title: "Foldex",
     desc: "Foldex is the latest innovation from Wise Verda Company. This product is a smart solution for your storage and organization needs. With elegant and functional design, Foldex is here to make your daily activities easier.",
     price: "Rp. 67.500",
+    image: foldex,
   },
+  {
+    id: 2,
+    title: "Foldex",
+    desc: "Foldex is the latest innovation from Wise Verda Company. This product is a smart solution for your storage and organization needs. With elegant and functional design, Foldex is here to make your daily activities easier.",
+    price: "Rp. 67.500",
+    image: foldex2,
+  },
+  {
+    id: 3,
+    title: "Foldex",
+    desc: "Foldex is the latest innovation from Wise Verda Company. This product is a smart solution for your storage and organization needs. With elegant and functional design, Foldex is here to make your daily activities easier.",
+    price: "Rp. 67.500",
+    image: foldex3,
+  }
 ];
 
 const Products = () => {
@@ -19,7 +36,7 @@ const Products = () => {
           {productsData.map((product) => (
             <div key={product.id} className={styles.card}>
               <div className={styles.imagePlaceholder}>
-                <img src={foldex} alt={product.title} />
+                <img src={product.image} alt={product.title} />
               </div>
               <div className={styles.cardContent}>
                 <h3 className={styles.cardTitle}>{product.title}</h3>
